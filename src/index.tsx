@@ -140,9 +140,9 @@ export class ConsentManager extends React.Component<
   constructor(props: ConsentManagerProps) {
     super(props)
     this.state = {
-      enabledCookieTypes: Object.keys(CookieType),
+      enabledCookieTypes: [CookieType.ESSENTIAL],
       view: View.HIDDEN,
-      enabledCookies: props.options.cookies.map((c) => c.id)
+      enabledCookies: props.options.cookies.filter(cookie => cookie.type === CookieType.ESSENTIAL).map((c) => c.id)
     }
   }
 
