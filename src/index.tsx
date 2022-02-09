@@ -279,7 +279,6 @@ export class ConsentManager extends React.Component<
   setEnabledCookiesByCookieTypes() {
     this.setState({
       enabledCookies: [
-        ...this.state.enabledCookies,
         ...this.props.options.cookies
           .filter((c) => this.state.enabledCookieTypes.includes(c.type))
           .map((c) => c.id)
