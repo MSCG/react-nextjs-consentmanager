@@ -23,6 +23,8 @@ export enum I18nKeys {
   FUNCTIONAL = 'FUNCTIONAL',
   STATISTICS = 'STATISTICS',
   MARKETING = 'MARKETING',
+  IMPRINT = 'IMPRINT',
+  PRIVACY_POLICY = 'PRIVACY_POLICY',
   ACCEPT_ALL = 'ACCEPT_ALL',
   SAVE = 'SAVE',
   MAIN_TITLE = 'MAIN_TITLE',
@@ -104,7 +106,7 @@ const SettingRow: React.FC<{
       </div>
       <p>{reason}</p>
       <a href={privacyPolicyLink} target='_blank' rel='noreferrer noopener'>
-        Datenschutzerklärung
+        {i18n[I18nKeys.PRIVACY_POLICY]}
       </a>
     </div>
   )
@@ -346,11 +348,11 @@ export class ConsentManager extends React.Component<
     return (
       <div className='rncm__bottom_links'>
         <a href={privacyPolicyLink} target='_blank' rel='noreferrer noopener'>
-          Datenschutzerklärung
+          {this.props.options.i18n[I18nKeys.PRIVACY_POLICY]}
         </a>
         <span>|</span>
         <a href={impressLink} target='_blank' rel='noreferrer noopener'>
-          Impressum
+          {this.props.options.i18n[I18nKeys.IMPRINT]}
         </a>
       </div>
     )

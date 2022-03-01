@@ -54,7 +54,9 @@ class Example extends Component {
       [I18nKeys.MARKETING]: "Marketing",
       [I18nKeys.SETTINGS_TEXT]: "Auf dieser Seite können Sie Informationen zu den Zwecken und Anbietern erfahren die personenbezogene Daten auf unserer Webseite verarbeiten.",
       [I18nKeys.MAIN_TITLE]: "Einwilligung zu Cookies & Daten",
-      [I18nKeys.MAIN_TEXT]: "Auf dieser Website nutzen wir Cookies und vergleichbare Funktionen um Ihnen die bestmögliche Browsing-Erfahrung zu bieten. Die Verarbeitung dient der statistischen Analyse/Messung. Diese Einwilligung ist freiwillig, für die Nutzung unserer Website nicht erforderlich und kann jederzeit über das Icon rechts unten widerrufen werden."
+      [I18nKeys.MAIN_TEXT]: "Auf dieser Website nutzen wir Cookies und vergleichbare Funktionen um Ihnen die bestmögliche Browsing-Erfahrung zu bieten. Die Verarbeitung dient der statistischen Analyse/Messung. Diese Einwilligung ist freiwillig, für die Nutzung unserer Website nicht erforderlich und kann jederzeit über das Icon rechts unten widerrufen werden.",
+      [I18nKeys.IMPRINT]: "Impressum",
+      [I18nKeys.PRIVACY_POLICY]: "Datenschutzerklärung"
     }
   }
 
