@@ -109,14 +109,13 @@
 
 .rncm__bottom_links {
     font-size: 0.8rem;
-    opacity: 0.5;
     display: flex;
     justify-content: flex-end;
 }
 
 .rncm__bottom_links>a {
     margin: 0 4px;
-    color: #121212;
+    color: #595959;
 }
 
 .rncm__bottom_links>span {
